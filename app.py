@@ -1,6 +1,6 @@
 import streamlit as st
 
-def main():
+def app():
     st.header('DAO 討論與投票區')
     tab1, tab2 = st.tabs(["現有提案", "討論區"])
     
@@ -19,4 +19,4 @@ def main():
         
 
 if __name__ == '__main__':
-    main()
+    app()
